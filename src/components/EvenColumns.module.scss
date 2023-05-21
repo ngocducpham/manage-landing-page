@@ -1,0 +1,11 @@
+.evenColumns {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 50rem){
+    .evenColumns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
